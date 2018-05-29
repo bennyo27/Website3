@@ -1,0 +1,84 @@
+.wrapper
+{
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "main aside";
+    margin: auto;
+    width: 1000px;
+}
+
+body
+{
+    background-color: #54704A;
+    color: #404040;
+}
+
+.box1
+{
+    background-color: #B5B67D;
+    text-align: right;
+    grid-area: header;
+    margin-top: -8px;
+}
+
+.box2
+{
+    background-color: #689D59;
+    grid-area: nav;
+    border-bottom: 2px dashed white;
+}
+
+.box3
+{
+    background-color: #738F69;
+    grid-area: main;
+}
+
+.box4
+{
+    background-color: #B5B67D;
+    grid-area: aside;
+    width: 250px;
+}
+
+.navBAr li
+{
+    font-size: 20px;
+    display: inline;
+    padding-right: 80px;
+}
+
+.sideList
+{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.sideTitle
+{
+    text-align: center;
+}
+
+.siteTitle
+{
+    margin-right: 40px;
+    font-size: 45px;
+}
+
+.sonnet
+{
+    text-align: center;
+}
+
+.contentTitle, .intro
+{
+    padding-left: 20px;
+}
+
+.contentTitle
+{
+    font-size: 40px;
+}
